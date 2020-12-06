@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.qamission.org"
+           xmlns="http://www.qamission.org"
+           elementFormDefault="qualified">
+<xs:element name="webpage" type="webelement"/>
+
+    <xs:complexType name="webelement">
+        <xs:sequence>
+                <webelement></webelement>
+    </xs:complexType>
+</xs:schema>
